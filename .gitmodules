@@ -1,0 +1,4 @@
+[submodule "lib/esp32-camera"]
+	path = lib/esp32-camera
+	url = https://github.com/maruta/esp32-camera.git
+	branch = master
