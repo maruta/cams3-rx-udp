@@ -35,7 +35,7 @@ This project supports two hardware configurations:
 This repository includes submodules. Use the following command to clone the repository and initialize the submodules:
 
 ```
-git clone --recursive [repository URL]
+git clone --recursive https://github.com/maruta/cams3-rx-udp.git
 ```
 
 If you've already cloned the repository, initialize the submodules with:
@@ -120,10 +120,7 @@ This applies the appropriate hardware settings for the selected environment. To 
 
 ### 5. Building and Uploading the Firmware
 
-1. Open the PlatformIO tab at the bottom of VSCode
-2. Click on "PROJECT TASKS" → "Build" to build the firmware
-3. Connect the ESP32S3 board to your PC via USB
-4. Click "Upload" to upload the firmware
+1. Use "PlatformIO:Upload" button to upload the firmware
 
 ### 6. Setting Up the Host PC
 
