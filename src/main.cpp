@@ -74,7 +74,7 @@ typedef struct
 } input_t;
 
 
-const size_t max_buf = 6000;
+const size_t max_buf = 8192;
 
 typedef struct
 {
